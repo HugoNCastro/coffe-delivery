@@ -6,7 +6,7 @@ interface IconProps {
 
 export const HomeContainer = styled.div`
   display: flex;
-  height: 50%;
+  height: 20rem;
   width: 100%;
   margin-top: 5rem;
   align-items: center;
@@ -40,8 +40,7 @@ export const ContainerInfo = styled.div`
 
 export const ContainerImage = styled.div`
   display: flex;
-  margin-top: 10rem;
-  height: 32rem;
+  height: 25rem;
 `
 
 export const Icon = styled.div<IconProps>`

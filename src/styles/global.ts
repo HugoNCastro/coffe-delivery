@@ -6,10 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-
+  
   body {
-    background: ${(props) => props.theme.background};
     color: ${(props) => props.theme['base-text']};
+    background-color: ${(props) => props.theme.background};
   }
 
   body, input, textarea, button {
